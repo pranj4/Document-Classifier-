@@ -64,6 +64,32 @@ cd document-classification-api
 
 ## Folder Structure
 
+
+- **`.venv/`**: Contains the virtual environment for Python dependencies.
+- **`api/`**: Handles API-related logic.
+  - `invoice_extractor.py`: Extracts data from invoices.
+  - `main.py`: Entry point for running the API.
+  - `model_loader.py`: Utility to load pre-trained or fine-tuned models for API use.
+- **`config/`**: Contains configuration files for the project.
+- **`data/`**: Placeholder for storing raw and processed datasets.
+- **`model/`**: Directory for storing machine learning models.
+- **`src/`**: Core logic for the project.
+  - **`results/`**: Stores outputs, logs, or evaluation metrics from experiments.
+  - **`saved_model/`**: Contains pre-trained or fine-tuned model files.
+  - `autolabel.py`: Automates the labeling of datasets.
+  - `create_dataset.py`: Generates and processes datasets for training.
+  - `explore.py`: Helps explore data and perform analyses.
+  - `extract_invoice_data.py`: Specialized script for extracting and processing invoice data.
+  - `extract_text.py`: Extracts textual information from input data.
+  - `fine_tuned.py`: Handles fine-tuning of machine learning models.
+  - `preprocess.py`: Prepares datasets for training (e.g., cleaning and tokenizing data).
+  - `train_model.py`: Script to train machine learning models.
+- **`.gitignore`**: Specifies files and directories to be excluded from version control.
+- **`README.md`**: Documentation for the project.
+- **`test.py` & `test2.py`**: Scripts for testing various components of the project.
+
+---
+
 ![image](https://github.com/user-attachments/assets/ba314372-afd0-4a4e-bb66-7cc6d2ece80e)
 
 
