@@ -46,7 +46,7 @@
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/your-username/document-classification-api.git cd document-classification-api
+https://github.com/pranj4/Document-Classifier-/
 ```
 ### 2. Create a virtual environment:
 ```bash
